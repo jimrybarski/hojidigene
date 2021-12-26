@@ -2,5 +2,11 @@
 name = "hojidigene"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/jimrybarski/hojidigene"
+readme = "README.md"
+license = "MIT"
+authors = ["Jim Rybarski <jim@rybarski.com>"]
 
 [dependencies]
+tui = { version = "0.16.0", features = ["crossterm"], default-features = false }
+crossterm = "0.22.1"
